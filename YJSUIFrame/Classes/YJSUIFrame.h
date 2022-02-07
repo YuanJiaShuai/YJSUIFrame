@@ -1,5 +1,5 @@
 //
-//  YJSCategoryHeader.h
+//  YJSUIFrame.h
 //  UICategory
 //
 //  Created by yjs on 2022/1/5.
@@ -13,3 +13,5 @@
 #import "NSString+YJSString.h"
 #import "NSData+YJSBase64.h"
 #import "UIImage+YJSImage.h"
+
+#import "YJSProgressHUD.h"

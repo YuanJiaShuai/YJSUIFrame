@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = YuanJiaShuai;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = LBPG6T5755;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -324,10 +327,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-YJSUIFrame_Example/Pods-YJSUIFrame_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/YJSUIFrame/YJSUIFrame.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YJSUIFrame.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,6 +499,7 @@
 			baseConfigurationReference = C586C8CE08CB97964D97E5DE /* Pods-YJSUIFrame_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LBPG6T5755;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YJSUIFrame/YJSUIFrame-Prefix.pch";
 				INFOPLIST_FILE = "YJSUIFrame/YJSUIFrame-Info.plist";
@@ -510,6 +516,7 @@
 			baseConfigurationReference = 3EFA4BCDDF5CEAD4F140C589 /* Pods-YJSUIFrame_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LBPG6T5755;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YJSUIFrame/YJSUIFrame-Prefix.pch";
 				INFOPLIST_FILE = "YJSUIFrame/YJSUIFrame-Info.plist";
