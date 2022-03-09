@@ -1,4 +1,4 @@
-#
+ #
 # Be sure to run `pod lib lint YJSUIFrame.podspec' to ensure this is a
 # valid spec before submitting.
 #
@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'YJSUIFrame'
-    s.version          = '1.0.1'
+    s.version          = '1.0.2'
     s.summary          = '常用的UI框架'
     
     # This description is used to generate tags and improve search results.
