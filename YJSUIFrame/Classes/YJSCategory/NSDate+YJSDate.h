@@ -22,6 +22,7 @@ typedef NS_ENUM(NSInteger, YJSTimeStyle) {
     YJSTimeStyleYearMonthDayHourMiniteDot,//2017.07.21 09:08
     YJSTimeStyleCNMonthDay,//7月21日
     YJSTimeStyleHourMiniteDot,//12:12:12
+    YJSTimeStyleHourMinite,//12:12
 };
 
 @interface NSDate (YJSDate)

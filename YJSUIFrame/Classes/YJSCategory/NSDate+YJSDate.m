@@ -253,6 +253,9 @@ static NSCalendar *_calendar = nil;
         case YJSTimeStyleHourMiniteDot:
             timeStyleString = @"HH:mm:ss";
             break;
+        case YJSTimeStyleHourMinite:
+            timeStyleString = @"HH:mm";
+            break;
         default:
             break;
     }
