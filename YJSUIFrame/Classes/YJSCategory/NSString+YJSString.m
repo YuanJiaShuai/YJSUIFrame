@@ -316,3 +316,28 @@
 }
 
 @end
+
+@implementation NSString (YJSAddition)
+
+- (BOOL)isPhoneNumber {
+    // 1.全部是数字
+    // 2.11位
+    // 3.以13\15\18\17开头
+    NSString *phone = @"^1[3578]\\d{9}$";
+    NSPredicate *regextestPhone = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", phone];
+    if ([regextestPhone evaluateWithObject:self]) {
+        return YES;
+    }
+    return NO;
+}
+
+- (BOOL) isPassword{
+    NSString *pwd = @"^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d]{6,12}$";
+    NSPredicate *regextestPwd = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", pwd];
+    if ([regextestPwd evaluateWithObject:self]) {
+        return YES;
+    }
+    return NO;
+}
+
+@end

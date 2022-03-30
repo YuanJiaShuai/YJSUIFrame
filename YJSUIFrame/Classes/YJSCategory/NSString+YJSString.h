@@ -88,4 +88,22 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
+@interface NSString (YJSAddition)
+
+/**
+ 判断手机号
+ 
+ @return YES or NO
+ */
+- (BOOL)isPhoneNumber;
+
+/**
+ 密码验证
+ 
+ @return 返回结果
+ */
+- (BOOL)isPassword;
+
+@end
+
 NS_ASSUME_NONNULL_END
