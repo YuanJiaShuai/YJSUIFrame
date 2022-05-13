@@ -18,6 +18,7 @@ typedef NS_ENUM(NSInteger, YJSTimeStyle) {
     YJSTimeStyleChYearMonth,//2017年07月
     YJSTimeStyleYearMonthLine,//2017/07
     YJSTimeStyleMonthDay,//07-21
+    YJSTimeStyleMonthLineDay,// 07/21
     YJSTimeStyleYearMonthDayChinese, //2017年7月21日
     YJSTimeStyleYearMonthDayHourMiniteDot,//2017.07.21 09:08
     YJSTimeStyleCNMonthDay,//7月21日

@@ -241,6 +241,9 @@ static NSCalendar *_calendar = nil;
         case YJSTimeStyleMonthDay:
             timeStyleString = @"MM-dd";
             break;
+        case YJSTimeStyleMonthLineDay:
+            timeStyleString = @"MM/dd";
+            break;
         case YJSTimeStyleYearMonthDayChinese:
             timeStyleString = @"yyyy年MM月dd日";
             break;
